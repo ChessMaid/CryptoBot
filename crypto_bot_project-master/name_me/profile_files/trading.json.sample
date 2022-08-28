@@ -1,0 +1,28 @@
+{
+    "profiles": 
+        [   
+            {
+              "id" : "789c24e4-c505-4637-a91e-e6f39cccf90d",
+              "name" : "trading on 60 min",
+              "api"                    : "ByBit",
+              "use_testnet"            : true,
+              "market"                 : "BTCUSD",
+              "asset"                  : "BTC",
+              "resolution"             : 1800,
+              "subs"                   : [900, 300],
+              "limit"                  : 200,
+              "trade_lev"              : 3,
+              "model_path"             : "./models/NN0001.pth",
+              "transformer_uuid"       : "07ff9122-4a78-4a77-ae5d-8f7e3a183bcf",
+              "loop_iteration_offset"  : 25,
+              "approach"               : "nn",
+              "order_type"             : "Market",
+              "order_exec_params"      : {
+                "price_offset"        : 0.5,
+                "retry_replace_time"  : 2,
+                "max_seconds"         : 450
+              }
+            }
+        ],
+    "selected_profile" : "789c24e4-c505-4637-a91e-e6f39cccf90d"
+}

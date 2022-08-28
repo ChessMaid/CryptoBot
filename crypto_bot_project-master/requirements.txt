@@ -1,0 +1,6 @@
+torch
+bybit
+flask
+pandas
+discord_webhook
+psutil

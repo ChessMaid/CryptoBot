@@ -1,0 +1,24 @@
+{
+    "profiles": 
+        [
+            {
+              "id"   : "f3498338-98b8-4ad7-9010-1a6dcee3ce02",
+              "name" : "RL Training",
+              "api"                    : "ByBit",
+              "use_testnet"            : true,
+              "market"                 : "BTCUSD",
+              "resolution"             : 1800,
+              "subs"                   : [],
+              "limit"                  : 500,
+              "transformer_uuid"       : "07ff9122-4a78-4a77-ae5d-8f7e3a183bcf",
+              "lev"                    : 1,
+              "fees"                   : 0.00075,
+              "funding"                : 0.0005,
+              "peak"                   : 5,
+              "lookback"               : 16,
+              "max_episode_len"        : 48,
+              "train_split"            : 0.8
+            }
+        ],
+    "selected_profile" : "f3498338-98b8-4ad7-9010-1a6dcee3ce02"
+}

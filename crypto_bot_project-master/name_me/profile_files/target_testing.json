@@ -1,0 +1,17 @@
+{
+    "profiles": 
+        [
+            {
+                "id" : "d1766927-fc55-49bc-9df1-ab55f588da4f",
+              "name" : "target test profile",
+              "market"                 : "BTCUSD",
+              "resolution"             : 3600,
+              "limit"                  : 500,
+              "test_lev"               : 1,
+              "fees"                   : 0.00075,
+              "funding"                : 0.0002,
+              "cone_quantile"          : 0.5
+            }
+        ],
+    "selected_profile" : "d1766927-fc55-49bc-9df1-ab55f588da4f"
+}

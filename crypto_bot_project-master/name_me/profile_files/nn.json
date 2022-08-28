@@ -1,0 +1,26 @@
+{
+    "profiles": 
+        [
+            {
+              "id" : "f3498338-98b8-4ad7-9010-1a6dcee3ce02",
+              "name" : "3600_sec",
+              "market"                 : "BTCUSD",
+              "use_testnet"            : true,
+              "api"                    : "ByBit",
+              "resolution"             : 1800,
+              "limit"                  : 10000,
+              "lev"                    : 1,
+              "fees"                   : 0.00075,
+              "funding"                : 0.0005,
+              "target"                 : "close_ma2",
+              "cone_quantile"          : 0.05,
+              "transformer_uuid"       : "614e94a2-3a35-4341-ba25-ad2b4a8709e8",
+              "num_iterations"         : 5,
+              "num_cv_sets"            : 5,
+              "train_batch_size"       : 100,
+              "test_batch_size"        : 1000,
+              "loss_func"              : "NLLLoss"
+            }
+        ],
+    "selected_profile" : "f3498338-98b8-4ad7-9010-1a6dcee3ce02"
+}

@@ -1,0 +1,26 @@
+{
+    "profiles": 
+        [   
+            {
+              "id" : "789c24e4-c505-4637-a91e-e6f39cccf90d",
+              "name" : "trading on 15 min",
+              "market"                 : "BTCUSD",
+              "asset"                  : "BTC",
+              "use_testnet"            : true,
+              "resolution"             : 3600,
+              "limit"                  : 200,
+              "trade_lev"              : 1.5,
+              "model_path"             : "./models/NN0001.pth",
+              "transformer_uuid"       : "614e94a2-3a35-4341-ba25-ad2b4a8709e8",
+              "loop_iteration_offset"  : 10,
+              "approach"               : "nn",
+              "order_type"             : "Market",
+              "order_exec_params"      : {
+                "price_offset"        : 0.5,
+                "retry_replace_time"  : 2,
+                "max_seconds"         : 450
+              }
+            }
+        ],
+    "selected_profile" : "789c24e4-c505-4637-a91e-e6f39cccf90d"
+}

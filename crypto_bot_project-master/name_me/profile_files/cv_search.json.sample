@@ -1,0 +1,21 @@
+{
+    "profiles": 
+        [
+            {
+              "id" : "f3498338-98b8-4ad7-9010-1a6dcee3ce02",
+              "name" : "15_min",
+              "market"                 : "BTCUSD",
+              "asset"                  : "BTC",
+              "resolution"             : 3600,
+              "limit"                  : 1500,
+              "train_lev"              : 1,
+              "fees"                   : -0.00025,
+              "funding"                : 0.0005,
+              "cone_quantile"          : 0.33,
+              "target"                 : "close_ma2",
+              "train_split"            : 0.8,
+              "shuffle_dataset"        : false
+            }
+        ],
+    "selected_profile" : "f3498338-98b8-4ad7-9010-1a6dcee3ce02"
+}

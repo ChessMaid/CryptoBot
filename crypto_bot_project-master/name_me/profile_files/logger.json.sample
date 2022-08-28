@@ -1,0 +1,9 @@
+{
+  "USE_CONSOLE": true,
+  "USE_FILE": true,
+  "USE_DISCORD": false,
+  "DISCORD_WEBHOOK_URL": "https://discord.com/api/webhooks/...",
+  "maxbytes": 5242880,
+  "backup count": 5,
+  "encoding": "UTF-8"
+}

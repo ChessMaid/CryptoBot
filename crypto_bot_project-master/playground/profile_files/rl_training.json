@@ -1,0 +1,34 @@
+{
+  "profiles": [
+    {
+      "id": "f3498338-98b8-4ad7-9010-1a6dcee3ce02",
+      "name": "RL Training",
+      "api": "ByBit",
+      "use_testnet": true,
+      "market": "BTCUSD",
+      "resolution": 1800,
+      "subs": [900],
+      "limit": 5000,
+      "transformer_uuid": "07ff9122-4a78-4a77-ae5d-8f7e3a183bcf",
+      "lev": 3,
+      "fees": 0.00075,
+      "funding": 0.0005,
+      "gamma": 0.99,
+      "epsilon": 1,
+      "epsilon_decay_factor": 0.99999,
+      "minimum_epsilon": 0.1,
+      "learning_rate": 0.0001,
+      "memory_size": 100000,
+      "dream_size": 128,
+      "dream_period": 64,
+      "target_period": 256,
+      "peak": 1,
+      "lookback": 16,
+      "max_episode_len": 256,
+      "train_split": 0.8,
+      "device": "cpu",
+      "save_path": "./models/backup.pth"
+    }
+  ],
+  "selected_profile": "f3498338-98b8-4ad7-9010-1a6dcee3ce02"
+}

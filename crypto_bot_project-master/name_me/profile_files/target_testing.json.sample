@@ -1,0 +1,21 @@
+{
+    "profiles": 
+        [
+            {
+                "id" : "d1766927-fc55-49bc-9df1-ab55f588da4f",
+              "name" : "target test profile",
+              "api"                    : "ByBit",
+              "use_testnet"            : true,
+              "market"                 : "BTCUSD",
+              "resolution"             : 1800,
+              "subs"                   : [],
+              "limit"                  : 5000,
+              "transformer_uuid"       : "614e94a2-3a35-4341-ba25-ad2b4a8709e8",
+              "test_lev"               : 1,
+              "fees"                   : 0.00075,
+              "funding"                : 0.0005,
+              "cone_quantile"          : 0.25
+            }
+        ],
+    "selected_profile" : "d1766927-fc55-49bc-9df1-ab55f588da4f"
+}
